@@ -1,0 +1,236 @@
+img {
+  width: 100%;
+  height: auto;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+.font-size15 {
+  font-size: 15px;
+}
+.font-size20{
+  font-size: 20px;
+}
+.font-size25 {
+  font-size: 25px;
+}
+.font-size30 {
+  font-size: 30px;
+}
+.font-size35 {
+  font-size: 35px;
+}
+.font-size50 {
+  font-size: 50px;
+}
+
+.change__green {
+  color: #60bbbb;
+}
+.change__agenda {
+  color:#fe4888 ;
+}
+
+/*--------------------- header--------------------- */
+body {
+  width: 1300px;
+  margin: auto;
+}
+.header {
+  width: 1000px;
+  height: 70px;
+}
+
+.header__logo {
+  font-family: 'Amatic SC', cursive;
+  font-size: 25px;
+  color: #60bbbb;
+  text-align: right;
+  width: 1000px;
+  margin: auto;
+  padding: 0px 80px 0 0;
+}
+
+
+/*--------------------- firstview--------------------- */
+
+.firstview {
+  position: relative;
+  width: 1000px;
+  margin: auto;
+}
+.firstview__eyecatch {
+  right: 0;
+  width: 1000px;
+  margin: auto;
+}
+.firstview__content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 20px;
+}
+.firstview__content-eyecatch {
+  font-family: 'Shippori Mincho', serif;
+  font-size: 25px;
+  line-height: 70px;
+}
+
+
+
+.firstview__flex {
+  display: flex;
+  margin: 30px 0;
+}
+.only__now {
+  display: flex;
+  background:#fe4888 ;
+  color: white;
+  align-items: center;
+  border-radius: 50%;
+  padding: 25px 5px;
+  margin-left: 30px;
+  margin-right: 20px;
+}
+.new_cost {
+  font-size: 15px;
+  margin-top: 10px;
+  padding-bottom: 10px;
+}
+
+
+
+.join_text {
+  font-family: 'Shippori Mincho', serif;
+  border-radius: 30px;
+  background:#fe4888 ;
+  color: white;
+  padding: 20px 15px;
+  width: 330px;
+  text-align: center;
+  box-shadow:1px 1px 1px #fe4888 ;
+  margin-left: 30px;
+  box-shadow: 0 0 10px #fe4888;
+  margin-top: 30px;
+}
+
+.italic_style {
+  font-style: italic;
+}
+
+.concern-text {
+  position: relative;
+  font-family: 'Shippori Mincho', serif;
+  text-align: center;
+  background: #60bbbb;
+  color: white;
+  width: 950px;
+  margin: auto;
+  padding: 25px;
+  transform: translate(0,-5px);
+}
+.concern-text::after {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  content: "";
+  margin-left: -20px;
+  border: 30px solid transparent;
+  border-top: 20px solid #60bbbb;
+}
+
+/*---------------------trouble--------------------- */
+
+.trouble-flex {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+}
+
+.trouble-imgsize {
+  width: 80%;
+  height: auto;
+}
+
+ul {
+  font-family: 'Shippori Mincho', serif;
+  margin: 50px 30px;
+  border: solid 1px;
+  border-radius: 30px;
+  padding: 20px 35px;
+}
+li {
+  list-style: none;
+  padding: 10px 0;
+  align-items: center;
+  border-bottom: solid 1px #60bbbb;
+}
+li::before {
+  content: url(../img/check.svg);
+}
+
+/*---------------------propose--------------------- */
+
+
+.header__logo_white {
+  font-family: 'Amatic SC', cursive;
+  font-size: 30px;
+}
+
+.propose-text {
+  font-family: 'Shippori Mincho', serif;
+  text-align: center;
+  background: #60bbbb;
+  color: white;
+  width: 950px;
+  margin: auto;
+  padding: 25px;
+  transform: translate(0,-36px);
+  line-height:50px;
+}
+
+/*---------------------point--------------------- */
+
+.point-flex {
+  display: flex;
+  justify-content: center;
+}
+
+.point-card {
+  width: 20%;
+  border: solid 1px #60bbbb;
+  padding: 0 10px;
+  margin: 5px;
+}
+.point-title {
+  font-family: 'Amatic SC', cursive;
+  background: white;
+  padding-left: 5px;
+  transform: translate(10px, -10px);
+  width: 40px;
+
+}
+.point-para1 {
+  font-family: 'Shippori Mincho', serif;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px 0;
+  line-height: 35px;
+}
+
+.point-para2 {
+  font-family: 'Shippori Mincho', serif;
+  padding: 10px 0;
+  line-height: 25px;
+}
+
+/*---------------------footer--------------------- */
+.footer {
+  text-align: center;
+  height: 60px;
+  line-height: 60px;
+  font-size: 14px;
+  margin-top: 40px;
+}
